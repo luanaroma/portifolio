@@ -1,0 +1,79 @@
+<!DOCTYPE html><!-- é uma declaração obrigatória no início de todo documento HTML-->
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/style.css"> <!-- css é uma linguagem de estilo que descreve a aparência de documentos escritos em linguagens como HTML-->
+    <!--é uma referência digital clicável que direciona o usuário para outra página da Web, 
+    um documento, um arquivo ou outro recurso online, atuando como uma ponte ou ligação entre conteúdos-->
+</head>
+<body><!--corpo-->
+    <header><!--cabeçalho-->
+        <nav>
+            <ul>
+                <li><a href="portifolio.html">portifolio</a></li>
+                <li><a href="certificados.html">Certificados</a></li>
+                <li><a href="cursos.html">cursos</a></li>
+            </ul>
+        </nav><!--navegaçao-->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #384aaf, #6a8cff);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 30px;
+            background-color: rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.3em;
+            margin-bottom: 30px;
+        }
+
+        a.button {
+            text-decoration: none;
+            padding: 15px 30px;
+            background-color: white;
+            color: #384aaf;
+            font-weight: bold;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        a.button:hover {
+            background-color: #dfe6ff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Olá, eu sou a Luana!</h1>
+        <p>Estudante de Informática - 2º Ano do Ensino Médio</p>
+        <a href="portifolio.html" class="button">Ver meu portfólio</a>
+        <a href="certificados.html" class="button">Ver meu Certificado</a>
+        <a href="cursos.html" class="button">Ver meus cursos</a>
+    </div>
+
+    </header>
+</body>
+</html>
